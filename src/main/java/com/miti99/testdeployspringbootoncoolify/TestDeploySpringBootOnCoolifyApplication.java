@@ -6,8 +6,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class TestDeploySpringBootOnCoolifyApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(TestDeploySpringBootOnCoolifyApplication.class, args);
-	}
+  public static void main(String[] args) {
+    SpringApplication.run(TestDeploySpringBootOnCoolifyApplication.class, args);
+  }
 
 }
