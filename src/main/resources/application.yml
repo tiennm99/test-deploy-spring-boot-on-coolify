@@ -3,5 +3,4 @@ spring:
     mongodb:
       uri: ${MONGODB_URI:mongodb://localhost:27017/mydatabase}
     redis:
-      host: ${REDIS_HOST:localhost}
-      port: ${REDIS_PORT:6379}
+      url: ${REDIS_URL:redis://localhost:6379}
